@@ -1,0 +1,6 @@
+# V3 collector uses Python standard library only.
+
+# Payment subscriptions (optional until Stripe is configured)
+stripe==15.6.0
+
+psycopg[binary]>=3.2,<4
